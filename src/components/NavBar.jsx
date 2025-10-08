@@ -48,24 +48,28 @@ function NavBar({ logo, name, bgClr }) {
         <div
           className={`${bgClr} md:hidden pb-2 flex flex-col gap-4 items-center`}
         >
-          <a
+          <Link
+            to={'/'}
             className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
-            href="#"
           >
             Home
-          </a>
-          <a
+          </Link>
+          <Link
+            to={'/about'}
             className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
-            href="#"
           >
             About
-          </a>
-          <Button
-            text="Contact"
-            bgClr="bg-purple-600"
-            textClr="text-white"
-            className="rounded-md relative after:content-[''] after:absolute after:left-2 after:bottom-2 after:h-[1.5px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-4/5"
-          />
+          </Link>
+          <Link
+            to={'/contact'}
+          >
+            <Button
+              text="Contact"
+              bgClr="bg-purple-600"
+              textClr="text-white"
+              className="rounded-md relative after:content-[''] after:absolute after:left-2 after:bottom-2 after:h-[1.5px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-4/5"
+            />
+          </Link>
         </div>
       )}
     </>
