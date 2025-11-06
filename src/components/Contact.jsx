@@ -1,10 +1,10 @@
 import React from "react";
-import NavBar from "./NavBar";
+// import NavBar from "./NavBar";
 
 function Contact() {
   return (
     <>
-      <NavBar logo="M" name="Mahid" bgClr="bg-gray-200" />
+      {/* <NavBar logo="M" name="Mahid" bgClr="bg-gray-200" /> */}
 
       <section className="bg-gray-50 flex flex-col items-center justify-center px-6 sm:px-10 md:px-20 py-12 md:py-20">
         {/* Heading */}

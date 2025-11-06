@@ -15,7 +15,7 @@ function NavBar({ logo, name, bgClr }) {
         <div className="hidden md:flex gap-6 items-center">
           <Link
             to={'/'}
-            className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+            // className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
           >
             Home
           </Link>

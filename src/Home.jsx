@@ -16,8 +16,8 @@ function Home() {
                 <span className="leading-loose">Mahid Wasif</span>
               </h1>
               <p className="mt-6 text-gray-500 text-lg leading-relaxed">
-                I'm a <span className="font-semibold">UI/UX Designer</span> and{" "}
-                <span className="font-semibold">Developer</span>
+                I'm a <span className="font-semibold">UI/UX </span> and{" "}
+                <span className="font-semibold">Developer </span>
                 based in Lahore, Pakistan. I strive to build immersive and
                 beautiful web applications through carefully crafted code and
                 user-centric design.

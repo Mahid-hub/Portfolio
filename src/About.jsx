@@ -1,10 +1,10 @@
 import React from "react";
-import NavBar from "./components/NavBar";
+// import NavBar from "./components/NavBar";
 
 function About() {
   return (
     <>
-      <NavBar logo="M" name="Mahid" bgClr="bg-gray-200" />
+      {/* <NavBar logo="M" name="Mahid" bgClr="bg-gray-200" /> */}
       <div className="min-h-screen bg-gray-50 text-gray-800 px-6 py-16 md:px-20 lg:px-32">
         {/* Main Heading */}
         <h1 className="text-5xl font-bold text-center mb-16 text-gray-900">
@@ -13,13 +13,13 @@ function About() {
 
         <div className="max-w-5xl mx-auto space-y-16">
           {/* Who I Am */}
-          <section className="bg-white p-10 rounded-3xl shadow-lg hover:shadow-2xl transition duration-300">
+          <section className="bg-white p-10 rounded-3xl shadow-lg xl:hover:shadow-2xl transition duration-300">
             <h2 className="text-3xl font-semibold text-purple-600 mb-6">
               Who I Am
             </h2>
             <p className="text-lg leading-relaxed text-gray-700">
               Hi, I’m <span className="font-bold text-gray-900">Mahid Wasif</span>
-              , a passionate UI/UX Designer and Frontend Developer based in
+              , a passionate UI/UX Frontend Developer based in
               Lahore, Pakistan. I specialize in creating user-friendly,
               responsive, and visually appealing websites that provide seamless
               experiences.
@@ -27,16 +27,11 @@ function About() {
           </section>
 
           {/* What I Do */}
-          <section className="bg-white p-10 rounded-3xl shadow-lg hover:shadow-2xl transition duration-300">
+          <section className="bg-white p-10 rounded-3xl shadow-lg xl:hover:shadow-2xl transition duration-300">
             <h2 className="text-3xl font-semibold text-purple-600 mb-6">
               What I Do
             </h2>
             <ul className="space-y-4 text-lg text-gray-700">
-              <li>
-                <span className="font-bold text-gray-900">UI/UX Design –</span>{" "}
-                Designing clean, modern interfaces with a focus on simplicity and
-                usability.
-              </li>
               <li>
                 <span className="font-bold text-gray-900">
                   Frontend Development –
@@ -61,7 +56,7 @@ function About() {
           </section>
 
           {/* My Approach */}
-          <section className="bg-white p-10 rounded-3xl shadow-lg hover:shadow-2xl transition duration-300">
+          <section className="bg-white p-10 rounded-3xl shadow-lg xl:hover:shadow-2xl transition duration-300">
             <h2 className="text-3xl font-semibold text-purple-600 mb-6">
               My Approach
             </h2>
