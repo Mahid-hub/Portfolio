@@ -13,8 +13,8 @@ export default function Hero() {
       </div>
       <a className="hero-connect" href="#contact">Have a project in mind? <span>Let’s connect <span aria-hidden="true">↗</span></span></a>
     </div>
-    <div className="hero-visual reveal" aria-label="Profile image placeholder">
-      <div className="photo-frame"><img src={personalInfo.profile} alt="Portrait of Mahid Wasif" onError={(event) => { event.currentTarget.style.display = 'none' }} /><div className="photo-placeholder"><span>MW</span><small>PROFILE PHOTO</small><code>public/profile.jpg</code></div><span className="frame-index">01 — 04</span></div>
+    <div className="hero-visual reveal" aria-label="Portrait of Mahid Wasif">
+      <div className="photo-frame"><img src={personalInfo.profile} alt="Portrait of Mahid Wasif" onError={(event) => { event.currentTarget.style.display = 'none' }} /></div>
     </div>
     <div className="hero-bottom"><span>BASED IN PAKISTAN</span><a href="#about">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a></div>
   </section>
